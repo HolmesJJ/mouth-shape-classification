@@ -22,7 +22,7 @@ conda deactivate
 
 5. 删除环境
 ```
-conda remove -n VideoPose3D --all
+conda remove -n mouth_shape_classification --all
 ```
 
 6. 对于ubuntu 16
@@ -30,3 +30,10 @@ conda remove -n VideoPose3D --all
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate VideoPose3D
 ```
+
+7. 安装CUDA Toolkit
+* [软件要求](https://www.tensorflow.org/install/gpu)
+* [教程](https://blog.csdn.net/qq_44703886/article/details/112393149)
+	* Toolkit: Installed in `/usr/local/cuda-11.2/`
+* [常见问题](https://github.com/tensorflow/tensorflow/issues/42738)
+

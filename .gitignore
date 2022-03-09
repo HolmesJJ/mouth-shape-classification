@@ -1,0 +1,9 @@
+# IDE
+.idea
+
+# python
+.ipynb_checkpoints
+
+# dataset
+dataset
+
